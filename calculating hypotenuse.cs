@@ -10,17 +10,22 @@ namespace TEST32
     {
         static void Main(string[] args)
         {
-            int cats = 35;
+            Console.WriteLine("enter side A : ");
+            double sa = Convert.ToDouble(Console.ReadLine());
+            // takes input from user for the first side
 
-            Console.WriteLine("please enter the number of cats you gained: ");
-            int mc = (Console.ReadKey());
+            Console.WriteLine("enter side A : ");
+            double sb = Convert.ToDouble(Console.ReadLine());
+            // takes input from user for the second side
 
+            double result = Math.Sqrt((sa * sa) + (sb * sb));
+            // calculates the hypotanuse
 
-            int tc = cats + mc;
-
-            Console.WriteLine("your total number of cats is: " + tc);
+            Console.WriteLine("The hypotenuse for the right angle triangle is" + result);
+            //outputs result to user
 
             Console.ReadKey();
+        }
         }
     }
 }

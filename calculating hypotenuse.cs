@@ -21,7 +21,7 @@ namespace TEST32
             double result = Math.Sqrt((sa * sa) + (sb * sb));
             // calculates the hypotanuse
 
-            Console.WriteLine("The hypotenuse for the right angle triangle is" + result);
+            Console.WriteLine("The hypotenuse for the right angle triangle is: " + result);
             //outputs result to user
 
             Console.ReadKey();
